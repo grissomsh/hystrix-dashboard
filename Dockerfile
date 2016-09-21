@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Grissom Wang <wang.tianqing.cn@hotmail.com>
+MAINTAINER Grissom Wang <wang.tianqing.cn@gmail.com>
 
 WORKDIR /app
 
