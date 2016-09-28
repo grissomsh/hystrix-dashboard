@@ -15,6 +15,9 @@
 # Run Hystrix Dashboard Docker image
 ```
 $ docker run -d -p 8080:8080 --name md-hystrix-dashboard grissomsh/hystrix-dashboard:latest
+
 ```
 
+
+[![](https://images.microbadger.com/badges/image/grissomsh/hystrix-dashboard.svg)](https://microbadger.com/images/grissomsh/hystrix-dashboard "Get your own image badge on microbadger.com")
 
