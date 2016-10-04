@@ -19,5 +19,9 @@ $ docker run -d -p 8080:8080 --name md-hystrix-dashboard grissomsh/hystrix-dashb
 ```
 
 
-[![](https://images.microbadger.com/badges/image/grissomsh/hystrix-dashboard.svg)](https://microbadger.com/images/grissomsh/hystrix-dashboard "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/grissomsh/hystrix-dashboard.svg)](https://microbadger.com/images/grissomsh/hystrix-dashboard)
+
+[![](https://images.microbadger.com/badges/version/grissomsh/hystrix-dashboard.svg)](https://microbadger.com/images/grissomsh/hystrix-dashboard)
+
+[![](https://images.microbadger.com/badges/license/grissomsh/hystrix-dashboard.svg)](https://microbadger.com/images/grissomsh/hystrix-dashboard)
 
