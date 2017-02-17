@@ -1,13 +1,14 @@
-FROM centos:7
-MAINTAINER Grissom Wang <wang.tianqing.cn@gmail.com>
+FROM airdock/oracle-jdk:latest
+
+MAINTAINER Grissom Wang <grissom.wang@daocloud.io>
 
 WORKDIR /app
 
-RUN yum -y install java-1.8.0-openjdk
+RUN apt-get update
 
-RUN curl https://repo1.maven.org/maven2/com/netflix/hystrix/hystrix-dashboard/1.5.6/hystrix-dashboard-1.5.6.war -o hystrix-dashboard.war
+RUN curl https://repo1.maven.org/maven2/com/netflix/hystrix/hystrix-dashboard/1.5.9/hystrix-dashboard-1.5.9.war -o hystrix-dashboard.war
 
-RUN curl https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.3.9.v20160517/jetty-runner-9.3.9.v20160517.jar -o jetty-runner.jar
+RUN curl https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-runner/9.4.1.v20170120/jetty-runner-9.4.1.v20170120.jar -o jetty-runner.jar
 
 EXPOSE 8080
 
